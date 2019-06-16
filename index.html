@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+  </head>
+  
+  <body>
+    <header id="header">
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="overlay"></div>
+      
+      <nav id="nav-bar">
+        <i class="fas fa-times"></i>
+        <div class="logo">
+          <img src="https://image.flaticon.com/icons/png/512/23/23656.png" alt="apple logo">
+        </div>
+        
+        <div class="nav-middle">
+          <ul>
+            <li><a class="nav-link" href="#video">About Us</a></li>
+            <li><a class="nav-link" href="#form">Contact Us</a></li>
+            <li><a class="nav-link" href="#blog">Blog</a></li>
+          </ul>
+        </div>
+        
+        <div class="nav-right">
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fas fa-search"></i>Search
+              </a>
+            </li>
+            
+            <li>
+              <a href="#">
+                <i class="fas fa-user"></i>Account
+              </a>
+            </li>
+            
+            <li>
+              <a href="#">
+                <i class="fas fa-shopping-cart"></i>Cart
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <div class="main">
+        <div class="tone-1">
+          <div id="catalog" class="product-info">
+            <h1>iPad Pro</h1>
+            <p>Like a computer. Unlike any computer.</p>
+            <h2>From $799</h2>
+            
+            <div class="info-btns">
+              <a href="#" class="btn discover-btn">DISCOVER</a>
+              <a href="#" class="btn cart-btn">ADD TO CART</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="tone-2">
+          <img id="header-img" src="http://pngriver.com/wp-content/uploads/2018/03/Download-iPad-PNG-Transparent-Picture-259.png" alt="">
+        </div>      
+      </div> <!-- closing div for main content -->
+    </header>
+    
+             <!-- video -->
+         <iframe id="video"  src="https://www.youtube.com/embed/LjaKHqDbzSA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         
+    
+       <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+         <h3>Contact Us</h3>
+        <div class="row">
+  <div class="labels">
+    <label id="name-label" for="name">* Name: </label>
+  </div>
+  <div class="answer">
+    <input type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+  </div>
+</div>
+    
+<div class="row">
+  <div class="labels">
+    <label id="email-label" for="email">* Email: </label>
+  </div>
+  <div class="answer">
+    <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required>
+  </div>
+ </div>
+          <!-- text area for additional comments -->
+  <div class="row">
+    <div class="labels">
+      <label for="comments">Message:</label>
+    </div>
+  <div class="answer">
+    <textarea id="comments" class="input-field" name="comments" placeholder="Leave thoughts here..."></textarea>
+  </div>
+</div>
+         <input type="submit" id="submit" name="submit">
+ </form>
+    
+    <div id="blog">
+      <h4>Blog: Coming Soon</h4>
+    </div>
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+   
+  </body>
